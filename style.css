@@ -13,13 +13,14 @@
 .background {
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     min-width: 40%;
 }
 
 #background-image {
     width: 100%;
     height: 100%;
+    overflow: scroll;
 }
 
 .title {
@@ -31,31 +32,35 @@
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4rem;
+    max-width: 20%;
 }
+
 
 .form-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 50px;
+    gap: 30px;
+    margin-top: 50px;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
-    
-    gap: 16px;
 }
 
 p {
     font-size: 1.5rem;
-    width: clamp(45ch,100%,90ch);
+    font-weight: 500;
+    width: clamp(45ch, 85%, 90ch);
+    padding: 40px;
 }
 
 form {
     display: flex;
     justify-content: flex-start;
     gap: 70px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
 }
 
@@ -68,4 +73,12 @@ form {
 
 button {
     align-self: flex-start;
+    background-color: crimson;
+    min-width: 164px;
+    min-height: 64px;
+    margin-left: 40px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: beige;
 }
