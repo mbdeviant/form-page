@@ -46,39 +46,48 @@ h1 {
 .text-container {
     display: flex;
     flex-direction: column;
+    padding: 70px 70px 0px 70px;
+    gap: 40px;
 }
 
 p {
     font-size: 1.5rem;
     font-weight: 500;
     width: clamp(45ch, 85%, 90ch);
-    padding: 40px;
+    
 }
 
 form {
     display: flex;
     justify-content: flex-start;
     gap: 70px;
-    padding: 40px;
+    padding: 0px 0px 40px 70px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
+}
+label{
+    margin-top: 14px;
+    font-size: 0.7rem;
 }
 
 .left-side,
 .right-side {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
 }
 
 button {
     align-self: flex-start;
     background-color: crimson;
-    min-width: 164px;
-    min-height: 64px;
-    margin-left: 40px;
+    min-width: 225px;
+    min-height: 50px;
+    margin-left: 70px;
     border-radius: 12px;
     font-size: 1.2rem;
     font-weight: 700;
     color: beige;
+}
+.bottom-text{
+    margin-left: 70px;
 }
