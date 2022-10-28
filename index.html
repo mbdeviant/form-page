@@ -21,15 +21,15 @@
             </div>
         </div>
         <div class="form-container">
-            <p>Sometimes creating something is harder than you thought. You know you need something like this in your
-                life
-                to help you realize your deepest dreams. Sometimes, you just have to deviate. Sign up <em>now</em> and
-                get started.
-            </p>
-            <p>You <em>know</em> you want to.</p>
-
-            <form action="outerspace">
+            <div class="text-container">
+                <p>Sometimes creating something is harder than you thought. You know you need something like this in
+                    your life to help you realize your deepest dreams. Sometimes, you just have to deviate.<br>Sign
+                    up <em>now</em> and get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
                 <p>Let's do this!</p>
+            </div>
+            <form action="outerspace" id="sign-up">
                 <div class="left-side">
                     <label for="name">FIRST NAME</label>
                     <input type="text" name="user_name" id="name">
@@ -50,8 +50,8 @@
                     <label for="password-confirmation">CONFIRM PASSWORD</label>
                     <input type="password" name="password_confirmation" id="password-confirmation">
                 </div>
-                <button type="submit">Create Account</button>
             </form>
+            <button type="submit" form="sign-up">Create account?</button>
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
