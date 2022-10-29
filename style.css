@@ -115,6 +115,7 @@ button {
 }
 
 button:hover {
+    transform: scale(1.05);
     cursor: pointer;
     box-shadow: 0 0 10px rgba(252, 170, 111, 255);
 }
@@ -139,6 +140,5 @@ a:active{
 }
 .disabled{
     background-color: gray;
-    border: transparent;
     color: black;
 }
