@@ -35,7 +35,8 @@
 
 
 }
-img{
+
+img {
     width: 45px;
 }
 
@@ -80,10 +81,11 @@ form {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
 }
-input:focus{
+
+input:focus {
     outline: none;
-    border: 1.5px solid rgba(215,78,141,255);
-    box-shadow: 0 0 4px rgba(252,170,111,255);
+    border: 2px solid rgba(215, 78, 141, 255);
+
 }
 
 label {
@@ -100,7 +102,7 @@ label {
 
 button {
     align-self: flex-start;
-    background-color: rgba(215,78,141,255);
+    background-color: rgba(215, 78, 141, 255);
     min-width: 225px;
     min-height: 50px;
     margin-left: 70px;
@@ -111,12 +113,23 @@ button {
     border: transparent;
     transition: 0.5s;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(252,170,111,255);
+    box-shadow: 0 0 10px rgba(252, 170, 111, 255);
 }
 
 .bottom-text {
     margin-left: 70px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: rgba(215, 78, 141, 255);
+}
+a:hover,
+a:active{
+    color:rgba(252, 170, 111, 255);
 }
