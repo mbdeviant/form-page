@@ -132,3 +132,13 @@ a:hover,
 a:active{
     color:rgba(252, 170, 111, 255);
 }
+.enabled{
+    background-color: rgba(215, 78, 141, 255);
+    border: transparent;
+    color: black;
+}
+.disabled{
+    background-color: gray;
+    border: transparent;
+    color: black;
+}
