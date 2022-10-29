@@ -29,18 +29,21 @@
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 100px;
     position: absolute;
-    margin-top: 170px;
-    
+    margin-top: 250px;
+    background-color: rgba(0, 0, 0, 0.192);
 
+
+}
+img{
+    width: 45px;
 }
 
 h1 {
-   font-family: serif;
-    color: white;
+    font-family: serif;
+    color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(219, 213, 213, 0.295);
+    -webkit-text-stroke-color: rgb(245, 245, 8);
     font-size: 3rem;
 
 }
@@ -61,7 +64,7 @@ h1 {
 }
 
 p {
-    
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
