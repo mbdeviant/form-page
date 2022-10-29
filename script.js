@@ -1,6 +1,6 @@
 const passwordInput = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
-const submitButton = document.getElementById('submit-button');
+const submitButton = document.getElementById("submit-button");
 const form = document.getElementById('sign-up');
 
 
@@ -15,20 +15,14 @@ submitButton.addEventListener('click', () =>{
 
 form.addEventListener('mouseleave', () => {
     checkPassword();
-
 });
 
 function checkPassword() {
     if (passwordInput.value != passwordConfirmation.value) {
-        passwordMatch = false;
-
-        console.log(passwordMatch);
-        console.log(passwordInput.value);
-        console.log(passwordConfirmation.value);
-        
+        submitButton.disabled = true;
     }
     else if (passwordInput.value == passwordConfirmation.value){
-        passwordMatch == true;
-     
+        
+        submitButton.disabled = false;
     }
 }
