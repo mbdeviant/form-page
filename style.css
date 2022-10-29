@@ -80,6 +80,11 @@ form {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
 }
+input:focus{
+    outline: none;
+    border: 1.5px solid rgba(215,78,141,255);
+    box-shadow: 0 0 4px rgba(252,170,111,255);
+}
 
 label {
     margin-top: 14px;
@@ -95,14 +100,14 @@ label {
 
 button {
     align-self: flex-start;
-    background-color: crimson;
+    background-color: rgba(215,78,141,255);
     min-width: 225px;
     min-height: 50px;
     margin-left: 70px;
     border-radius: 12px;
     font-size: 1.2rem;
     font-weight: 700;
-    color: beige;
+    color: black;
 }
 
 .bottom-text {
