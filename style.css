@@ -116,7 +116,6 @@ button {
 
 button:hover {
     cursor: pointer;
-    transform: scale(1.1);
     box-shadow: 0 0 10px rgba(252, 170, 111, 255);
 }
 
