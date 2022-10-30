@@ -3,10 +3,6 @@ const passwordConfirmation = document.getElementById('password-confirmation');
 const submitButton = document.getElementById("submit-button");
 const form = document.getElementById('form-container');
 
-passwordConfirmation.addEventListener('invalid',()=>{
-    console.log("patates");
-})
-
 form.addEventListener('mousemove', () => {
     checkPassword();
 });
