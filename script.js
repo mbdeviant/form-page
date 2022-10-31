@@ -2,7 +2,7 @@ const passwordInput = document.getElementById('password');
 const passwordConfirmation = document.getElementById('password-confirmation');
 const submitButton = document.getElementById("submit-button");
 const formContainer = document.getElementById('form-container');
-const form = document.getElementById()
+const form = document.getElementById('right-side');
 const passwordMatchWarning = document.createElement('p');
 
 passwordMatchWarning.textContent = "*Passwords does not match";
