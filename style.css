@@ -79,7 +79,7 @@ p {
 form {
     display: flex;
     justify-content: flex-start;
-    gap: 70px;
+    
     padding: 0px 0px 50px 70px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
@@ -147,6 +147,12 @@ a:active {
 .disabled {
     background-color: gray;
     color: black;
+}
+.match-warning{
+    color: blue;
+    font-size: 14px;
+    align-self: flex-end;
+    width: 40%;
 }
 
 @media only screen and (max-width: 600px) {
