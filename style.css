@@ -102,6 +102,9 @@ label {
     flex-direction: column;
     width: 40%;
 }
+.left-side{
+    margin-right: 70px;
+}
 
 button {
     align-self: flex-start;
@@ -189,6 +192,9 @@ a:active {
         width: auto;
         height: auto;
         
+    }
+    .left-side{
+        margin: 0;
     }
 
     .text-container {
