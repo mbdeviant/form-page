@@ -14,6 +14,10 @@ formContainer.addEventListener('mousemove', () => {
 submitButton.addEventListener('mousedown', ()=>{
     checkPassword();
     if(passwordConfirmation.value != '') form.appendChild(passwordMatchWarning);
+});
+
+submitButton.addEventListener('keydown', (event) => {
+    if(event.key == 'Enter') checkPassword();
 })
 
 function checkPassword() {
