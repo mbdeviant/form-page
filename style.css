@@ -152,10 +152,10 @@ a:active {
     color: black;
 }
 .match-warning{
-    color: blue;
-    font-size: 14px;
-    align-self: flex-end;
-    width: 40%;
+    color: red;
+    font-size: 10px;
+    align-self: flex-start;
+    height: 4px;
 }
 
 @media only screen and (max-width: 600px) {
