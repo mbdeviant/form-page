@@ -18,7 +18,7 @@ submitButton.addEventListener('mousedown', ()=>{
 
 submitButton.addEventListener('keydown', (event) => {
     if(event.key == 'Enter') checkPassword();
-})
+});
 
 function checkPassword() {
     if (passwordInput.value != passwordConfirmation.value) {
